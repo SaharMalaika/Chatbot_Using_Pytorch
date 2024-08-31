@@ -14,42 +14,6 @@ This project implements an AI chatbot using deep learning techniques, specifical
 - **Dynamic Response Generation**: The chatbot provides responses based on the predicted intent with a confidence threshold to handle unknown inputs gracefully.
 
 
-To run this project locally, follow these steps:
-
-1. **Clone the Repository**:
-
-    ```bash
-    git clone https://github.com/yourusername/chatbot.git
-    cd chatbot
-    ```
-
-2. **Install the Required Packages**:
-
-    Install all the dependencies listed in the `requirements.txt` file using pip:
-
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-3. **Download NLTK Data**:
-
-    Ensure you have the required NLTK packages by running:
-
-    ```python
-    import nltk
-    nltk.download('punkt')
-    ```
-
-4. **Run the Chatbot**:
-
-    Launch the chatbot using Gradio by running the following command:
-
-    ```bash
-    python chatbot.py
-    ```
-
-    This will start a local server and provide a URL to interact with the chatbot via a web browser.
-
 ## How It Works
 
 1. **Data Preparation**: The `intents.json` file contains multiple intents, each having several patterns (sample sentences) and corresponding responses. This data is tokenized, stemmed, and converted into a numerical format (bag-of-words) for training.
