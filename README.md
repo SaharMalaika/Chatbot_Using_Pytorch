@@ -1,6 +1,6 @@
 # AI Chatbot with Deep Learning Using PyTorch and Gradio
 
-![Chatbot Interface](https://via.placeholder.com/600x200.png?text=Chatbot+Interface+Demo)
+
 
 ## Overview
 
@@ -13,15 +13,6 @@ This project implements an AI chatbot using deep learning techniques, specifical
 - **User-Friendly Interface**: A web-based interface created with Gradio to easily interact with the chatbot.
 - **Dynamic Response Generation**: The chatbot provides responses based on the predicted intent with a confidence threshold to handle unknown inputs gracefully.
 
-## Project Structure
-
-- `intents.json`: A JSON file containing training data with various intents, patterns, and responses.
-- `data.pth`: The trained PyTorch model file.
-- `chatbot.py`: The main script that loads the model, processes user input, and generates responses.
-- `README.md`: This readme file.
-- `requirements.txt`: List of dependencies required to run the project.
-
-## Installation
 
 To run this project locally, follow these steps:
 
@@ -69,13 +60,6 @@ To run this project locally, follow these steps:
 
 4. **User Interface**: The Gradio library provides a simple web interface where users can enter their queries, and the chatbot responds in real-time.
 
-## Example Usage
-
-![Example Usage](https://via.placeholder.com/800x400.png?text=Example+Chatbot+Interaction)
-
-- User: "Hello!"
-- Chatbot: "Hi there! How can I assist you today?"
-
 ## Customization
 
 To customize the chatbot:
@@ -102,10 +86,6 @@ To customize the chatbot:
 ## Contributing
 
 Contributions are welcome! If you have any suggestions, feel free to create an issue or submit a pull request.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
 ## Acknowledgments
 
